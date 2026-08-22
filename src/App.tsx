@@ -1047,7 +1047,7 @@ function WhatWeTeachPage() {
                 Less lecturing. More learning.
               </p>
               <p style={{ fontSize: 16, lineHeight: 1.8, color: `${C.space}bb`, marginTop: 20 }}>
-                We believe practical education works best when students are involved in it. Our sessions are designed around five principles:
+               Our programme takes place in one month over four Saturdays, with each session combining classroom learning with engaging, hands-on activities. The final session is extended, giving students more time for activities, reflection, and a proper goodbye. 
               </p>
             </div>
             <div className="space-y-0">
