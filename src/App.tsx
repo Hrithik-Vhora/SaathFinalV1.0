@@ -966,7 +966,7 @@ function WhatWeTeachPage() {
 
                 {/* Topics */}
                 <div style={{ fontSize: 8, letterSpacing: "0.22em", textTransform: "uppercase", color: C.slate, fontWeight: 500, marginBottom: 10 }}>
-                  OUR SESSIONS CAN EXPLORE
+                  OUR SESSIONS EXPLORE
                 </div>
                 <ul className="mb-6 space-y-1">
                   {s.topics.map(t => (
