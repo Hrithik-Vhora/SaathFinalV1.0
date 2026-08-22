@@ -1,0 +1,532 @@
+REDESIGN ONLY THE EXISTING “DOCUMENTATION & CONTACT” / “DOCUMENTATION” PAGE.
+
+IMPORTANT:
+Do NOT change the design, layout, typography, colours, navigation, footer, background, branding, or any other page of the existing Saath website.
+
+The ONLY thing being changed is the CONTENT AND VISUAL PRESENTATION OF THE DOCUMENTATION SECTION.
+
+The purpose of this page is to become a playful but credible DOCUMENTATION HUB for Saath.
+
+It should feel like entering a physical archive of the organisation's work — using files, folders and books as visual metaphors — while still feeling mature, editorial, clean and trustworthy.
+
+Do NOT make it look childish, cartoonish, like a school worksheet, or like a generic corporate document library.
+
+The existing Saath visual identity must remain the foundation.
+
+==================================================
+PAGE PURPOSE
+==================================================
+
+The Documentation page should communicate:
+
+“This is where the actual work behind Saath is documented.”
+
+It should contain two primary categories:
+
+1. CAMPAIGN DOCUMENTATION
+2. CURRICULUM & LESSON PLANS
+
+The page should be an ARCHIVE/HUB.
+
+Do NOT put the full contents of every document directly onto this page.
+
+Instead, visitors should interact with the visual document objects and open the corresponding document/page.
+
+==================================================
+TOP OF PAGE
+==================================================
+
+Keep the existing page's overall header/navigation exactly as it is.
+
+Below the existing header, create a simple documentation introduction.
+
+Small label:
+
+DOCUMENTATION
+
+Large heading:
+
+The work behind Saath.
+
+Supporting text:
+
+“Saath believes that meaningful work should be documented, not simply described. This space contains the campaign reports, curriculum and lesson plans behind what we do.”
+
+Keep this section clean and relatively minimal.
+
+Do not add unnecessary illustrations or decorative elements here.
+
+==================================================
+SECTION 01 — CAMPAIGN ARCHIVE
+==================================================
+
+Create a section titled:
+
+CAMPAIGN ARCHIVE
+
+Heading:
+
+Campaigns, documented.
+
+Supporting text:
+
+“From the classroom to the final report, each campaign becomes part of Saath's growing record of work.”
+
+Under this, create ONE large physical FILE/FOLDER OBJECT representing the first campaign.
+
+The object should visually resemble a real paper file/folder or archival document.
+
+It should fit the existing Saath editorial/collage aesthetic.
+
+Think:
+- slightly tactile
+- paper-like
+- subtle imperfections
+- editorial
+- handmade
+- realistic enough to feel physical
+- NOT cartoonish
+- NOT photorealistic to the point of looking out of place
+
+The file should have a visible label:
+
+CAMPAIGN 01
+
+And underneath or on the file tab:
+
+RAMRAO INGAWALE HIGHSCHOOL
+
+Small supporting information can appear on the file:
+
+HATKANANGLE, KOLHAPUR
+4 WEEKS · 95 STUDENTS
+
+The file should feel like something someone could physically pick up from an archive.
+
+==================================================
+CAMPAIGN 01 INTERACTION
+==================================================
+
+The ENTIRE CAMPAIGN 01 FILE must be clickable.
+
+When the user clicks the file, open the dedicated Campaign 01 page.
+
+The Campaign 01 page should contain the detailed information from the official:
+
+“Campaign 1 Report”
+
+The report concerns:
+
+The Saath Campaign
+Ramrao Ingawale Highschool
+Hatkanangle, Kolhapur
+4 weeks of teaching
+95 students
+14 team members
+
+Do NOT make the Documentation page itself contain the entire campaign report.
+
+The file is an ENTRY POINT to the campaign.
+
+Use a subtle hover interaction:
+- very slight lift
+- very subtle rotation or movement if appropriate
+- subtle shadow change
+
+Do NOT use flashy animations.
+
+==================================================
+FUTURE CAMPAIGNS
+==================================================
+
+Design the Campaign Archive so that it can easily accommodate future campaigns.
+
+For now, ONLY show Campaign 01 as an actual campaign.
+
+Do NOT invent Campaign 02 or create fake campaign information.
+
+However, structure the layout so future campaign files can be added beside/below Campaign 01 without redesigning the entire page.
+
+Do not create fake statistics.
+
+==================================================
+SECTION 02 — CURRICULUM ARCHIVE
+==================================================
+
+After the Campaign Archive, create a second major section.
+
+Small label:
+
+CURRICULUM
+
+Heading:
+
+What we teach.
+
+Supporting text:
+
+“Our curriculum is built around practical knowledge that young people can carry beyond the classroom.”
+
+This section should visually contrast with the campaign archive while still belonging to the same design system.
+
+Instead of files/folders, represent the curriculum documents as PHYSICAL BOOKS.
+
+The books should look like small editorial books/manuals placed together.
+
+Do NOT make them look like children's storybooks.
+
+They should feel like:
+- lesson manuals
+- field guides
+- curriculum books
+- working documents
+
+Use a subtle handmade/editorial aesthetic.
+
+==================================================
+MASTER LESSON PLAN
+==================================================
+
+There is one document that covers the overall curriculum:
+
+FILE NAME:
+“Saath lesson plan”
+
+This is the MASTER LESSON PLAN covering the overall Saath teaching programme and the four subject areas.
+
+Give this document its own slightly larger/prominent book.
+
+Label it:
+
+SAATH
+
+MASTER LESSON PLAN
+
+Small supporting text:
+
+ALL FOUR SUBJECT AREAS
+
+This should be visually distinct from the individual subject books because it is the master curriculum document.
+
+The entire book must be clickable.
+
+Clicking it should open/view the corresponding “Saath lesson plan” document.
+
+Do NOT reproduce the entire document on the Documentation hub.
+
+==================================================
+FOUR SUBJECT CURRICULUM BOOKS
+==================================================
+
+Below or beside the master lesson plan, create four individual curriculum books.
+
+Each book represents one subject.
+
+There should be EXACTLY these four subject categories:
+
+1. LEGAL LITERACY
+2. FINANCIAL LITERACY
+3. DIGITAL LITERACY
+4. ENVIRONMENTAL / SUSTAINABILITY EDUCATION
+
+Each book should have the subject name clearly visible on its cover/spine.
+
+The four books should look like a coherent collection, but each should have a slightly different visual treatment so that they are easy to distinguish.
+
+Do NOT use random icons that change the existing Saath aesthetic.
+
+Typography should remain consistent with the rest of the website.
+
+==================================================
+DOCUMENT 1 — DIGITAL LITERACY
+==================================================
+
+Book label:
+
+DIGITAL
+LITERACY
+
+Associated document:
+
+“Lesson plan digital literacy, Hrithik”
+
+Make the entire book clickable.
+
+Clicking it should open/view the Digital Literacy lesson-plan document.
+
+Do NOT alter the filename or invent a different document.
+
+==================================================
+DOCUMENT 2 — FINANCIAL LITERACY
+==================================================
+
+Book label:
+
+FINANCIAL
+LITERACY
+
+Associated document:
+
+“Lesson plan financial literacy, Jay”
+
+Make the entire book clickable.
+
+Clicking it should open/view the Financial Literacy lesson-plan document.
+
+Do NOT alter the filename or invent a different document.
+
+==================================================
+DOCUMENT 3 — ENVIRONMENTAL / SUSTAINABILITY
+==================================================
+
+Book label:
+
+SUSTAINABILITY
+
+Associated document:
+
+“2. Sustainability block 1 lesson plan”
+
+Make the entire book clickable.
+
+The visual label may say:
+
+ENVIRONMENTAL
+EDUCATION
+
+while the underlying document remains:
+
+“2. Sustainability block 1 lesson plan”
+
+Make the entire book clickable.
+
+Do NOT invent additional sustainability documents.
+
+==================================================
+DOCUMENT 4 — LEGAL LITERACY
+==================================================
+
+Book label:
+
+LEGAL
+LITERACY
+
+Associated document:
+
+“Legal literacy Rhythm”
+
+Make the entire book clickable.
+
+This document contains:
+
+LEGAL LITERACY — BLOCK 1
+Topic: Understanding Our Rights
+Total Duration: 1 Hour
+
+The lesson plan includes:
+- Introduction and fair/unfair scenario activity
+- Understanding law, rights and dignity
+- Five fundamental rights
+- Rights scenario activity
+- Identity Card activity
+- Recap and exit questions
+- Materials required
+- Learning outcomes
+
+Do NOT reproduce all of this text on the Documentation hub.
+
+The book is simply the visual entry point to the document.
+
+==================================================
+LAYOUT
+==================================================
+
+The page should have a strong visual hierarchy:
+
+DOCUMENTATION
+The work behind Saath.
+
+↓
+
+CAMPAIGN ARCHIVE
+Campaigns, documented.
+
+↓
+
+[Large physical Campaign 01 file]
+
+↓
+
+CURRICULUM
+What we teach.
+
+↓
+
+[Master Lesson Plan book]
+
+↓
+
+[Four subject books]
+
+The layout should have generous whitespace.
+
+Do not make everything perfectly symmetrical if a slightly organic editorial arrangement would better fit the existing Saath aesthetic.
+
+However, maintain enough alignment and spacing that the page remains easy to navigate.
+
+The physical objects can have very subtle differences in angle/position to make the page feel tactile.
+
+Do NOT randomly scatter objects.
+
+The layout must still feel intentional and professional.
+
+==================================================
+INTERACTIONS
+==================================================
+
+Every document object must clearly feel clickable.
+
+Campaign 01 file:
+→ Opens Campaign 01 page/report.
+
+Master Lesson Plan:
+→ Opens “Saath lesson plan”.
+
+Digital Literacy book:
+→ Opens “Lesson plan digital literacy, Hrithik”.
+
+Financial Literacy book:
+→ Opens “Lesson plan financial literacy, Jay”.
+
+Sustainability book:
+→ Opens “2. Sustainability block 1 lesson plan”.
+
+Legal Literacy book:
+→ Opens “Legal literacy Rhythm”.
+
+Use subtle hover states.
+
+For example:
+- slight elevation
+- slight movement
+- very subtle shadow
+- tiny change in rotation
+
+Do NOT use:
+- bouncing
+- spinning
+- large scaling
+- flashy transitions
+- confetti
+- excessive animation
+
+The interaction should feel like physically picking up/opening a document.
+
+==================================================
+DOCUMENT OPENING BEHAVIOUR
+==================================================
+
+IMPORTANT:
+
+Do not create fake document content.
+
+Do not fabricate missing information.
+
+Do not rewrite the documents into summaries unless the existing website already requires a summary.
+
+Where the actual document is available, the interaction should open the actual corresponding document/page.
+
+If Figma Make cannot directly embed or open the supplied document files, create the visual interactive structure and use the appropriate document link/placeholder that can later be connected.
+
+Do NOT pretend a document has been embedded if it has not.
+
+==================================================
+CREDIBILITY
+==================================================
+
+The visual design should balance:
+
+PLAYFUL PRESENTATION
++
+SERIOUS DOCUMENTATION
+
+The physical files and books are visual metaphors.
+
+The actual information must remain professional.
+
+Do not make Saath look like a children's stationery brand.
+
+The goal is:
+
+“Young people built this, but they take the work seriously.”
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+On desktop:
+- Keep the campaign file prominent.
+- Display the curriculum books in a visually balanced arrangement.
+- Keep the master lesson plan visually distinct.
+
+On tablet:
+- Allow the books to wrap naturally.
+
+On mobile:
+- Stack the documents vertically.
+- Maintain clear labels and comfortable touch targets.
+- Do not shrink the books so much that their labels become difficult to read.
+
+Every document must remain easy to tap/click.
+
+==================================================
+IMPORTANT — DO NOT CHANGE ANYTHING ELSE
+==================================================
+
+This is critical.
+
+DO NOT modify any existing:
+- Home page
+- About Saath page
+- What We Teach page
+- Our Impact page
+- Newsletter page
+- Navigation
+- Footer
+- Typography system
+- Colour palette
+- Background
+- Buttons
+- Existing animations
+- Existing images
+- Existing content
+- Site-wide layout
+- Saath branding
+
+Do not redesign the entire website.
+
+Do not change the current Documentation page's global styling beyond what is necessary to create this Documentation Hub.
+
+ONLY transform the Documentation page into this archive-style hub.
+
+==================================================
+FINAL DESIGN INTENT
+==================================================
+
+The final page should feel like:
+
+A young organisation's growing physical archive.
+
+Campaigns are stored in FILES.
+
+Knowledge and teaching materials are stored in BOOKS.
+
+The visitor can visually understand the difference immediately:
+
+FILES = WHAT SAATH HAS DONE
+
+BOOKS = WHAT SAATH TEACHES
+
+And clicking each physical object takes the visitor deeper into the actual work.
+
+Keep it tactile, editorial, youthful and memorable — but restrained enough that Saath still feels credible and serious.
