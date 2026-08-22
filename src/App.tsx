@@ -724,7 +724,7 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
             {[
               { num: "01", title: "THE IDEA", body: "It started with a conversation — a realisation that the education around us was missing something fundamental. Not academic knowledge, but the practical skills that help you actually live your life. A handful of us decided we wanted to change that." },
               { num: "02", title: "THE FIRST STEP", body: "We reached out to a local school, built our first curriculum together, and walked into our first classroom not entirely sure what we were doing. The students surprised us — their engagement and curiosity made everything feel worthwhile." },
-              { num: "03", title: "BUILDING THE PROGRAMME", body: "We didn't get everything right the first time. Every session taught us something new—from how students engaged to which activities worked best. Our first campaign became the foundation for refining the curriculum and shaping the four-week programme Saath uses today." },
+              { num: "03", title: "LEARNING AS WE WENT", body: "We didn't get everything right the first time. Every session taught us something new—from how students engaged to which activities worked best. Our first campaign became the foundation for refining the curriculum and shaping the four-week programme Saath uses today." },
               { num: "04", title: "TODAY", body: "Today, Saath is a student-led campaign with a dedicated team, a structured curriculum, and a clear mission: making practical education more accessible for young people through interactive learning." },
               { num: "05", title: "WHAT'S NEXT", body: "We're just getting started. Our next goal is to reach more students, collaborate with more schools, and continue expanding the subjects we teach—while staying true to the idea that inspired Saath in the first place." },
             ].map((step, i) => (
@@ -1052,10 +1052,10 @@ function WhatWeTeachPage() {
             </div>
             <div className="space-y-0">
               {[
-                { label: "Practical", body: "We connect concepts with situations students may actually encounter." },
-                { label: "Interactive", body: "Activities, conversations, scenarios and questions matter more than passive listening." },
-                { label: "Accessible", body: "Complex ideas are broken down into language students can understand." },
-                { label: "Relevant", body: "We focus on problems and decisions that exist in students' everyday lives." },
+                { label: "Practical", body: "We teach skills that students are actually likely to use in everyday life." },
+                { label: "Interactive", body: "Conversations and activities that actually engage the students." },
+                { label: "Accessible", body: "Breaking down complex ideas into words that students understand." },
+                { label: "Relevant", body: "We teach students about topics that we know they will encounter in their daily lives." },
                 { label: "Action-oriented", body: "Students should leave knowing not only what something means, but what they can actually do with that knowledge." },
               ].map((p, i) => (
                 <div key={i} className="py-5" style={{ borderBottom: `1px solid ${C.space}18` }}>
@@ -1067,10 +1067,10 @@ function WhatWeTeachPage() {
               ))}
               <div className="pt-8">
                 <p style={{ fontSize: 16, lineHeight: 1.8, color: `${C.space}bb` }}>
-                  Most importantly, we want the classroom to feel like a place where asking questions is encouraged.
+                  We believe that the classroom is a place to ask questions and share ideas.
                 </p>
                 <p className="font-serif italic font-bold mt-4" style={{ fontSize: 18, color: C.space }}>
-                  {"Because sometimes the most valuable lesson begins with: \"But why?\""}
+                  {"Because sometimes the most valuable question is \"why?\""}
                 </p>
               </div>
             </div>
