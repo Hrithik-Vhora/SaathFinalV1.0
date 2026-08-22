@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/saath-website/",
+  base: "/SaathFinalV1.0/",
 });
