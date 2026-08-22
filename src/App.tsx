@@ -724,9 +724,9 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
             {[
               { num: "01", title: "THE IDEA", body: "It started with a conversation — a realisation that the education around us was missing something fundamental. Not academic knowledge, but the practical skills that help you actually live your life. A handful of us decided we wanted to change that." },
               { num: "02", title: "THE FIRST STEP", body: "We reached out to a local school, built our first curriculum together, and walked into our first classroom not entirely sure what we were doing. The students surprised us — their engagement and curiosity made everything feel worthwhile." },
-              { num: "03", title: "THE GROWTH", body: "Word spread. More schools reached out. More volunteers joined. We refined what we taught, how we taught it, and learned something new from every session. Saath became bigger than any of us had imagined." },
-              { num: "04", title: "TODAY", body: "Saath is now an organised campaign with a team of passionate young volunteers, a structured curriculum, and an expanding presence across schools. We document our work, measure our impact, and keep pushing forward." },
-              { num: "05", title: "WHAT'S NEXT", body: "More schools. More subjects. More volunteers. We want to build a scalable model that any motivated group of students can replicate — because the gap we set out to fill is bigger than what any one campaign can address." },
+              { num: "03", title: "BUILDING THE PROGRAMME", body: "Each session taught us something new. We refined our curriculum, improved our activities, and shaped Saath into a structured four-week programme that was more engaging and practical with every iteration." },
+              { num: "04", title: "TODAY", body: "Today, Saath is a student-led campaign with a dedicated team, a structured curriculum, and a clear mission: making practical education more accessible for young people through interactive learning." },
+              { num: "05", title: "WHAT'S NEXT", body: "We're just getting started. Our next goal is to reach more students, collaborate with more schools, and continue expanding the subjects we teach—while staying true to the idea that inspired Saath in the first place." },
             ].map((step, i) => (
               <div
                 key={step.num}
