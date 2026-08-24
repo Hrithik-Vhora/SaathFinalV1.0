@@ -1422,27 +1422,62 @@ function OurImpactPage() {
 
 
       {/* ── SECTION 9: THE TEAM ── */}
-      <section className="py-24 lg:py-36" style={{ backgroundColor: C.space }}>
-        <div className="max-w-7xl mx-auto px-6 lg:px-14">
-          <h2 className="font-display font-black uppercase leading-none mb-3" style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)", color: C.cream }}>
-            THE TEAM<br />BEHIND<br />CAMPAIGN 01
-          </h2>
-          <div style={{ width: 40, height: 2, backgroundColor: C.cream, marginBottom: 48 }} />
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-8">
-          {[
-            "Aahan Jain", "Advik Kalangutkar", "Aayesha Dadhiwale", "Devansh Goyal",
-            "Dheer Vikamshi", "Hrithik Vhora", "Jay Dalya", "Jhalak Jain",
-            "Ojas Kadam", "Phalghuni Panchgavi", "Pravesh Lohana", "Prithviraj Mote",
-            "Rhythm Patel", "Sarah Patel", "Vedika Bagri",
-          ].map(name => (
-            <div key={name} style={{ fontSize: 14, color: `${C.cream}cc`, lineHeight: 1.5, borderBottom: `1px solid ${C.cream}12`, paddingBottom: 12 }}>
-              {name}
-            </div>
-          ))}
+<section className="py-24 lg:py-36" style={{ backgroundColor: C.space }}>
+  <div className="max-w-7xl mx-auto px-6 lg:px-14">
+    <h2
+      className="font-display font-black uppercase leading-none mb-3"
+      style={{ fontSize: "clamp(2.5rem, 6vw, 5rem)", color: C.cream }}
+    >
+      THE TEAM
+      <br />
+      BEHIND
+      <br />
+      CAMPAIGN 01
+    </h2>
+
+    <div
+      style={{
+        width: 40,
+        height: 2,
+        backgroundColor: C.cream,
+        marginBottom: 48,
+      }}
+    />
+
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-8">
+      {[
+        "Aahan Jain",
+        "Advik Kalangutkar",
+        "Aayesha Dadhiwale",
+        "Devansh Goyal",
+        "Dheer Vikamshi",
+        "Hrithik Vhora",
+        "Jay Dalya",
+        "Jhalak Jain",
+        "Ojas Kadam",
+        "Phalghuni Panchgavi",
+        "Pravesh Lohana",
+        "Prithviraj Mote",
+        "Rhythm Patel",
+        "Sarah Patel",
+        "Vedika Bagri",
+      ].map((name) => (
+        <div
+          key={name}
+          style={{
+            fontSize: 14,
+            color: `${C.cream}cc`,
+            lineHeight: 1.5,
+            borderBottom: `1px solid ${C.cream}12`,
+            paddingBottom: 12,
+          }}
+        >
+          {name}
         </div>
-          </div>
-        </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ── SECTION 10: LOOKING FORWARD ── */}
       <section className="py-24 lg:py-36">
