@@ -1440,7 +1440,6 @@ function OurImpactPage() {
             </div>
           ))}
         </div>
-            ))}
           </div>
         </div>
       </section>
