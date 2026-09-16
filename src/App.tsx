@@ -1742,22 +1742,66 @@ function NewsletterFile({ onClick }: { onClick: () => void }) {
 
         <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
 
-        <div className="flex flex-wrap gap-6">
-  {["VOL. 01", "AUGUST 2026", "FIRST EDITION"].map(tag => (
-    <span
-      key={tag}
+        <div
+  style={{
+    marginTop: 28,
+    paddingTop: 18,
+    borderTop: `1px solid ${C.space}18`,
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexWrap: "wrap",
+    gap: 12,
+  }}
+>
+  <div>
+    <div
       style={{
         fontFamily: "'Barlow Condensed', sans-serif",
-        fontSize: 10,
+        fontSize: 9,
         letterSpacing: "0.18em",
         textTransform: "uppercase",
-        color: `${C.space}70`,
-        fontWeight: 500,
+        color: C.slate,
+        marginBottom: 4,
       }}
     >
-      {tag}
+      Volume 01
+    </div>
+    <div
+      style={{
+        fontFamily: "'Work Sans', sans-serif",
+        fontSize: 13,
+        color: `${C.space}AA`,
+      }}
+    >
+      August 2026
+    </div>
+  </div>
+
+  <div
+    className="group"
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: 8,
+      fontFamily: "'Barlow Condensed', sans-serif",
+      fontWeight: 700,
+      fontSize: 11,
+      letterSpacing: "0.14em",
+      textTransform: "uppercase",
+      color: C.space,
+    }}
+  >
+    OPEN ISSUE
+    <span
+      style={{
+        transition: "transform 200ms ease",
+        transform: hovered ? "translateX(4px)" : "translateX(0)",
+      }}
+    >
+      →
     </span>
-  ))}
+  </div>
 </div>
 
       </div>
