@@ -1598,23 +1598,23 @@ function DocFile({ onClick }: { onClick: () => void }) {
 
         <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
 
-                <div className="flex flex-wrap gap-6">
-  {["VOL. 01", "AUGUST 2026", "FIRST EDITION"].map(tag => (
-    <span
-      key={tag}
-      style={{
-        fontFamily: "'Barlow Condensed', sans-serif",
-        fontSize: 10,
-        letterSpacing: "0.18em",
-        textTransform: "uppercase",
-        color: `${C.space}70`,
-        fontWeight: 500,
-      }}
-    >
-      {tag}
-    </span>
-  ))}
-</div>
+                        <div className="flex flex-wrap gap-6">
+          {["VOL. 01", "AUGUST 2026", "FIRST EDITION"].map(tag => (
+            <span
+              key={tag}
+              style={{
+                fontFamily: "'Barlow Condensed', sans-serif",
+                fontSize: 10,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase",
+                color: `${C.space}70`,
+                fontWeight: 500,
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   )
