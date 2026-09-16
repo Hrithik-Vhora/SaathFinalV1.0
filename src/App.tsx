@@ -1683,9 +1683,30 @@ function Newsletterfile ({ onClick }: { onClick: () => void }) {
           SAATH PUBLICATION · VOL. 01
         </div>
 
-        <h3 className="font-display font-black uppercase" style={{ fontSize: "clamp(1.6rem, 4vw, 2.8rem)", color: C.space, lineHeight: 1, marginBottom: 8 }}>
-          SAATH CAMPAIGN<br />NEWSLETTER
-        </h3>
+        <div style={{ marginBottom: 8 }}>
+  <div
+    className="font-display font-black uppercase leading-none"
+    style={{
+      fontSize: "clamp(1.55rem, 4vw, 2.7rem)",
+      color: C.space,
+    }}
+  >
+    SAATH
+    <br />
+    CAMPAIGN
+  </div>
+
+  <div
+    className="font-serif italic leading-none"
+    style={{
+      fontSize: "clamp(1.1rem, 2.6vw, 1.6rem)",
+      color: C.caput,
+      marginTop: 2,
+    }}
+  >
+    Newsletter
+  </div>
+</div>
 
         <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
 
