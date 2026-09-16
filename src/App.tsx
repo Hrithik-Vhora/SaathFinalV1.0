@@ -1740,6 +1740,48 @@ function DocumentationPage() {
         </div>
       </section>
 
+      {/* ── NEWSLETTER ARCHIVE ── */}
+      <section className="py-24 lg:py-32">
+        <div className="max-w-7xl mx-auto px-6 lg:px-14">
+
+          <div
+            style={{
+              fontSize: 9,
+              letterSpacing: "0.25em",
+              color: C.slate,
+              textTransform: "uppercase",
+              fontWeight: 500,
+              marginBottom: 16,
+            }}
+          >
+            NEWSLETTER
+          </div>
+
+          <h2
+            className="font-display font-black uppercase leading-none mb-4"
+            style={{
+              fontSize: "clamp(2rem, 5vw, 4rem)",
+              color: C.space,
+            }}
+          >
+            The editorial archive.
+          </h2>
+
+          <p
+            className="max-w-xl"
+            style={{
+              fontSize: 15,
+              lineHeight: 1.75,
+              color: `${C.space}88`,
+            }}
+          >
+            Every campaign is preserved as a designed publication documenting the classroom,
+            the process and the impact with the same honesty as the work itself.
+          </p>
+
+        </div>
+      </section>
+
       {/* ── CURRICULUM ARCHIVE ── */}
       <section className="py-24 lg:py-36">
         <div className="max-w-7xl mx-auto px-6 lg:px-14">
