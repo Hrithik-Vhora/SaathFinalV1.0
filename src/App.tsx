@@ -1581,6 +1581,89 @@ function DocFile({ onClick }: { onClick: () => void }) {
   )
 }
 
+function Newsletterfile ({ onClick }: { onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{
+        cursor: "pointer",
+        transition: "transform 200ms ease, box-shadow 200ms ease",
+        transform: hovered ? "translateY(-6px) rotate(-0.5deg)" : "rotate(-0.8deg)",
+        transformOrigin: "bottom center",
+        maxWidth: 480,
+      }}
+    >
+      {/* Tab */}
+      <div
+        style={{
+          display: "inline-block",
+          backgroundColor: C.tan,
+          padding: "6px 20px 6px 14px",
+          marginLeft: 24,
+          marginBottom: 0,
+          clipPath: "polygon(0 0, calc(100% - 14px) 0, 100% 100%, 0 100%)",
+          position: "relative",
+          zIndex: 1,
+        }}
+      >
+        <span style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", color: C.space }}>
+          NEWSLETTER
+        </span>
+      </div>
+
+      {/* Folder body */}
+      <div
+        style={{
+          backgroundColor: "white",
+          border: `1px solid rgba(37,52,79,0.14)`,
+          boxShadow: hovered
+            ? "6px 10px 32px rgba(37,52,79,0.18), 2px 2px 0 rgba(37,52,79,0.06)"
+            : "4px 6px 18px rgba(37,52,79,0.12), 2px 2px 0 rgba(37,52,79,0.06)",
+          padding: "32px 36px 36px",
+          position: "relative",
+          borderTop: `3px solid ${C.tan}`,
+        }}
+      >
+        {/* Corner fold */}
+        <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.cream}` }} />
+        <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.tan}44` }} />
+
+        {/* Stamp mark */}
+        <div className="absolute top-5 right-8" style={{ transform: "rotate(8deg)" }}>
+          <div style={{
+            border: `2px solid ${C.caput}55`,
+            borderRadius: 2,
+            padding: "3px 8px",
+            fontFamily: "'Barlow Condensed', sans-serif",
+            fontSize: 8,
+            letterSpacing: "0.2em",
+            textTransform: "uppercase",
+            color: `${C.caput}55`,
+            fontWeight: 700,
+          }}>ARCHIVED</div>
+        </div>
+
+        <div style={{ fontSize: 8, letterSpacing: "0.28em", color: C.slate, textTransform: "uppercase", fontWeight: 500, marginBottom: 20 }}>
+          SAATH PUBLICATION · VOL. 01
+        </div>
+
+        <h3 className="font-display font-black uppercase" style={{ fontSize: "clamp(1.6rem, 4vw, 2.8rem)", color: C.space, lineHeight: 1, marginBottom: 8 }}>
+          SAATH CAMPAIGN<br />NEWSLETTER
+        </h3>
+
+        <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
+
+        <div className="flex flex-wrap gap-6">
+          {["HATKANANGLE, KOLHAPUR", "4 WEEKS", "95 STUDENTS"].map(tag => (
+            <span key={tag} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase", color: `${C.space}70`, fontWeight: 500 }}>
+              {tag}
+            </span>
+          ))}
+        </div>
+
 function BookCover({ label, sublabel, accent, file, rotate = 0 }: { label: string; sublabel?: string; accent: string; file: string; rotate?: number }) {
   const [hovered, setHovered] = useState(false)
   const open = () => window.open(file, "_blank")
