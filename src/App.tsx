@@ -1540,20 +1540,53 @@ function DocFile({ onClick }: { onClick: () => void }) {
         <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.cream}` }} />
         <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.tan}44` }} />
 
-        {/* Stamp mark */}
-        <div className="absolute top-5 right-8" style={{ transform: "rotate(8deg)" }}>
-          <div style={{
-            border: `2px solid ${C.caput}55`,
-            borderRadius: 2,
-            padding: "3px 8px",
-            fontFamily: "'Barlow Condensed', sans-serif",
-            fontSize: 8,
-            letterSpacing: "0.2em",
-            textTransform: "uppercase",
-            color: `${C.caput}55`,
-            fontWeight: 700,
-          }}>ARCHIVED</div>
-        </div>
+        {/* Publication mark */}
+<div
+  className="absolute top-5 right-8"
+  style={{ transform: "rotate(8deg)" }}
+>
+  <div
+    style={{
+      border: `2px solid ${C.caput}55`,
+      borderRadius: 2,
+      padding: "5px 8px",
+      display: "flex",
+      alignItems: "center",
+      gap: 6,
+      background: "rgba(255,255,255,0.55)",
+      backdropFilter: "blur(2px)",
+    }}
+  >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+      <rect
+        x="4"
+        y="3"
+        width="16"
+        height="18"
+        rx="1.5"
+        stroke={C.caput}
+        strokeWidth="1.5"
+      />
+      <line x1="8" y1="8" x2="16" y2="8" stroke={C.caput} strokeWidth="1.3" />
+      <line x1="8" y1="11" x2="16" y2="11" stroke={C.caput} strokeWidth="1.3" />
+      <line x1="8" y1="14" x2="13" y2="14" stroke={C.caput} strokeWidth="1.3" />
+      <rect x="6.5" y="6.5" width="2" height="8" fill={C.caput} />
+    </svg>
+
+    <span
+      style={{
+        fontFamily: "'Barlow Condensed', sans-serif",
+        fontSize: 8,
+        letterSpacing: "0.18em",
+        textTransform: "uppercase",
+        color: `${C.caput}AA`,
+        fontWeight: 700,
+      }}
+    >
+      PRESS
+    </span>
+  </div>
+</div>
 
         <div style={{ fontSize: 8, letterSpacing: "0.28em", color: C.slate, textTransform: "uppercase", fontWeight: 500, marginBottom: 20 }}>
           CAMPAIGN ARCHIVE · DOCUMENT 01
