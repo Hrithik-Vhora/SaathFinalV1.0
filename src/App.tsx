@@ -13,7 +13,7 @@ import pdfFinancial    from "./imports/Lesson_Plan_financial_literacy__jay.pdf"
 import pdfDigital      from "./imports/Lesson_plan_digital_literacy__Hrithik.pdf"
 import pdfEnvironment  from "./imports/2._Sustainanility_block_1_lesson_plan.pdf"
 
-type Page = "home" | "teach" | "impact" | "docs" | "about"
+type Page = "home" | "teach" | "impact" | "docs" | "about" | "Newsletter"
 
 // ─── Brand Tokens ─────────────────────────────────────────────────────────────
 const C = {
