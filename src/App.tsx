@@ -1620,7 +1620,15 @@ function DocFile({ onClick }: { onClick: () => void }) {
   )
 }
 
-function BookCover({ label, sublabel, accent, file, rotate = 0 }: ...)
+function BookCover(
+  { label, sublabel, accent, file, rotate = 0 }: {
+    label: string
+    sublabel?: string
+    accent: string
+    file: string
+    rotate?: number
+  }
+) {
 
         <div className="mt-8" style={{ fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", fontWeight: 600, color: C.space }}>
           OPEN REPORT →
