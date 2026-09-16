@@ -1620,23 +1620,6 @@ function DocFile({ onClick }: { onClick: () => void }) {
   )
 }
 
-function BookCover(
-  { label, sublabel, accent, file, rotate = 0 }: {
-    label: string
-    sublabel?: string
-    accent: string
-    file: string
-    rotate?: number
-  }
-) {
-
-        <div className="mt-8" style={{ fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase", fontWeight: 600, color: C.space }}>
-          OPEN REPORT →
-        </div>
-      </div>
-    </div>
-  )
-}
 
 function NewsletterFile({ onClick }: { onClick: () => void }) {
   const [hovered, setHovered] = useState(false)
@@ -1752,7 +1735,18 @@ function NewsletterFile({ onClick }: { onClick: () => void }) {
   ))}
 </div>
 
-function BookCover({ label, sublabel, accent, file, rotate = 0 }: { label: string; sublabel?: string; accent: string; file: string; rotate?: number }) {
+      </div>
+    </div>
+  )
+}
+
+function BookCover({ label, sublabel, accent, file, rotate = 0 }: {
+  label: string
+  sublabel?: string
+  accent: string
+  file: string
+  rotate?: number
+}) {
   const [hovered, setHovered] = useState(false)
   const open = () => window.open(file, "_blank")
   return (
