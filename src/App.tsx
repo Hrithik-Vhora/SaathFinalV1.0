@@ -1925,6 +1925,9 @@ function DocumentationPage() {
             Every campaign is preserved as a designed publication documenting the classroom,
             the process and the impact with the same honesty as the work itself.
           </p>
+                    <div className="mt-14 flex flex-wrap gap-10 items-end">
+            <NewsletterFile onClick={() => setNewsletterOpen(true)} />
+          </div>
 
         </div>
       </section>
