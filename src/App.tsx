@@ -1703,6 +1703,8 @@ function MasterBook({ file }: { file: string }) {
 }
 
 function DocumentationPage() {
+  const [newsletterOpen, setNewsletterOpen] = useState(false)
+
   return (
     <div style={{ backgroundColor: C.cream }} className="pt-[60px]">
 
