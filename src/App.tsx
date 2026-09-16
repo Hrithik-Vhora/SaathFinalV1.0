@@ -1715,7 +1715,52 @@ function NewsletterFile({ onClick }: { onClick: () => void }) {
           SAATH PUBLICATION · VOL. 01
         </div>
 
-        <div style={{ marginBottom: 8 }}>
+        <div style={{ marginBottom: 12 }}>
+  {/* Masthead */}
+  <div
+    style={{
+      background: `${C.tan}22`,
+      border: `1px solid ${C.tan}55`,
+      padding: "6px 10px",
+      marginBottom: 14,
+      display: "inline-block",
+    }}
+  >
+    <span
+      style={{
+        fontFamily: "'Barlow Condensed', sans-serif",
+        fontSize: 8,
+        fontWeight: 700,
+        letterSpacing: "0.24em",
+        textTransform: "uppercase",
+        color: C.caput,
+      }}
+    >
+      THE SAATH CAMPAIGN
+    </span>
+  </div>
+
+  <div
+    className="font-display font-black uppercase leading-none"
+    style={{
+      fontSize: "clamp(1.55rem, 4vw, 2.7rem)",
+      color: C.space,
+    }}
+  >
+    CAMPAIGN
+  </div>
+
+  <div
+    className="font-serif italic leading-none"
+    style={{
+      fontSize: "clamp(1.25rem, 2.8vw, 1.8rem)",
+      color: C.caput,
+      marginTop: 4,
+    }}
+  >
+    Newsletter
+  </div>
+</div>
   <div
     className="font-display font-black uppercase leading-none"
     style={{
