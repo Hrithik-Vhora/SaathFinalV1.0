@@ -6,6 +6,7 @@ import imgFounders  from "./imports/IMG_5077.jpeg"
 import imgSession1  from "./imports/c3e9d1a2-a873-46df-a8e8-12bf539bc94a.jpeg"
 import imgSession2  from "./imports/80f95404-b03f-4e27-931d-26ef5e6bf1f5.jpeg"
 
+import pdfCampaign1 from "./imports/Campaign_1_Report.pdf"
 import pdfNewsletter from "./imports/The_Saath_Bridge_issue_01.pdf"
 import pdfMasterPlan   from "./imports/Saath_Lesson_Plan.pdf"
 import pdfLegal        from "./imports/Legal_literacy__rhythm_.pdf"
