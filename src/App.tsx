@@ -1959,8 +1959,6 @@ function MasterBook({ file }: { file: string }) {
 }
 
 function DocumentationPage() {
-  const [newsletterOpen, setNewsletterOpen] = useState(false)
-
   return (
     <div style={{ backgroundColor: C.cream }} className="pt-[60px]">
 
@@ -2035,7 +2033,7 @@ function DocumentationPage() {
             the process and the impact with the same honesty as the work itself.
           </p>
                     <div className="mt-14 flex flex-wrap gap-10 items-end">
-            <NewsletterFile onClick={() => setNewsletterOpen(true)} />
+            <NewsletterFile onClick={() => window.open(pdfCampaign1, "_blank")} />
           </div>
 
         </div>
