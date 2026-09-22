@@ -1434,10 +1434,10 @@ function OurImpactPage() {
           <div style={{ width: 40, height: 2, backgroundColor: C.cream, marginBottom: 48 }} />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-8">
             {[
-              "Jhalak Jain", "Aayesha Dadhiwale", "Vedika Bagri", "Rhythm Patel",
-              "Phalghuni Panchgavi", "Prithviraj Mote", "Advik Kalangutkar", "Ojas Kadam",
-              "Aahan Jain", "Devansh Goyal", "Jay Dalya", "Hrithik Vhora",
-              "Pravesh Lohana", "Dheer Vikamshi", "Sarah Patel",
+              "Aahan Jain", "Aayesha Dadhiwale", "Advik Kalangutkar", "Devansh Goyal",
+              "Dheer Vikamshi", "Hrithik Vhora", "Jay Dalya", "Jhalak Jain",
+              "Mahi Singh", "Ojas Kadam", "Phalghuni Panchgavi", "Pravesh Lohana",
+              "Prithviraj Mote", "Rhythm Patel", "Sarah Patel", "Vedika Bagri"
             ].map(name => (
               <div key={name} style={{ fontSize: 14, color: `${C.cream}cc`, lineHeight: 1.5, borderBottom: `1px solid ${C.cream}12`, paddingBottom: 12 }}>
                 {name}
