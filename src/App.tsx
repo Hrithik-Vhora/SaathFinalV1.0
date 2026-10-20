@@ -1622,6 +1622,135 @@ function DocFile({ onClick }: { onClick: () => void }) {
   )
 }
 
+function DocFile2({ onClick }: { onClick: () => void }) {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div
+      onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{
+        cursor: "pointer",
+        transition: "transform 200ms ease, box-shadow 200ms ease",
+        transform: hovered ? "translateY(-6px) rotate(-0.5deg)" : "rotate(-0.8deg)",
+        transformOrigin: "bottom center",
+        maxWidth: 480,
+      }}
+    >
+      {/* Tab */}
+      <div
+        style={{
+          display: "inline-block",
+          backgroundColor: C.tan,
+          padding: "6px 20px 6px 14px",
+          marginLeft: 24,
+          marginBottom: 0,
+          clipPath: "polygon(0 0, calc(100% - 14px) 0, 100% 100%, 0 100%)",
+          position: "relative",
+          zIndex: 1,
+        }}
+      >
+        <span style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700, fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", color: C.space }}>
+          CAMPAIGN 02
+        </span>
+      </div>
+
+      {/* Folder body */}
+      <div
+        style={{
+          backgroundColor: "white",
+          border: `1px solid rgba(37,52,79,0.14)`,
+          boxShadow: hovered
+            ? "6px 10px 32px rgba(37,52,79,0.18), 2px 2px 0 rgba(37,52,79,0.06)"
+            : "4px 6px 18px rgba(37,52,79,0.12), 2px 2px 0 rgba(37,52,79,0.06)",
+          padding: "32px 36px 36px",
+          position: "relative",
+          borderTop: `3px solid ${C.tan}`,
+        }}
+      >
+        {/* Corner fold */}
+        <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.cream}` }} />
+        <div className="absolute top-0 right-0 w-0 h-0" style={{ borderLeft: "28px solid transparent", borderTop: `28px solid ${C.tan}44` }} />
+
+        {/* Publication mark */}
+<div
+  className="absolute top-5 right-8"
+  style={{ transform: "rotate(8deg)" }}
+>
+  <div
+    style={{
+      border: `2px solid ${C.caput}55`,
+      borderRadius: 2,
+      padding: "5px 8px",
+      display: "flex",
+      alignItems: "center",
+      gap: 6,
+      background: "rgba(255,255,255,0.55)",
+      backdropFilter: "blur(2px)",
+    }}
+  >
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+      <rect
+        x="4"
+        y="3"
+        width="16"
+        height="18"
+        rx="1.5"
+        stroke={C.caput}
+        strokeWidth="1.5"
+      />
+      <line x1="8" y1="8" x2="16" y2="8" stroke={C.caput} strokeWidth="1.3" />
+      <line x1="8" y1="11" x2="16" y2="11" stroke={C.caput} strokeWidth="1.3" />
+      <line x1="8" y1="14" x2="13" y2="14" stroke={C.caput} strokeWidth="1.3" />
+      <rect x="6.5" y="6.5" width="2" height="8" fill={C.caput} />
+    </svg>
+
+    <span
+      style={{
+        fontFamily: "'Barlow Condensed', sans-serif",
+        fontSize: 8,
+        letterSpacing: "0.18em",
+        textTransform: "uppercase",
+        color: `${C.caput}AA`,
+        fontWeight: 700,
+      }}
+    >
+      PRESS
+    </span>
+  </div>
+</div>
+
+        <div style={{ fontSize: 8, letterSpacing: "0.28em", color: C.slate, textTransform: "uppercase", fontWeight: 500, marginBottom: 20 }}>
+          CAMPAIGN ARCHIVE · DOCUMENT 02
+        </div>
+
+        <h3 className="font-display font-black uppercase" style={{ fontSize: "clamp(1.6rem, 4vw, 2.8rem)", color: C.space, lineHeight: 1, marginBottom: 8 }}>
+          NAVCHAITANYA<br />ORPHANAGE
+        </h3>
+
+        <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
+
+                        <div className="flex flex-wrap gap-6">
+          {["VOL. 02", "SEPTEMBER 2026", "FIRST EDITION"].map(tag => (
+            <span
+              key={tag}
+              style={{
+                fontFamily: "'Barlow Condensed', sans-serif",
+                fontSize: 10,
+                letterSpacing: "0.18em",
+                textTransform: "uppercase",
+                color: `${C.space}70`,
+                fontWeight: 500,
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
 
 function NewsletterFile({ onClick }: { onClick: () => void }) {
   const [hovered, setHovered] = useState(false)
@@ -1991,6 +2120,7 @@ function DocumentationPage() {
           {/* Files row — structured so future campaigns slot in */}
           <div className="flex flex-wrap gap-10 items-end">
             <DocFile onClick={() => window.open(pdfCampaign1, "_blank")} />
+            <DocFile2 onClick={() => window.open(pdfCampaign2, "_blank")} />
             {/* Future campaign files slot in here */}
           </div>
         </div>
