@@ -1601,7 +1601,7 @@ function DocFile({ onClick }: { onClick: () => void }) {
         <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
 
                         <div className="flex flex-wrap gap-6">
-          {["VOL. 01", "AUGUST 2026", "FIRST EDITION"].map(tag => (
+          {["AUGUST 2026"].map(tag => (
             <span
               key={tag}
               style={{
@@ -1731,7 +1731,7 @@ function DocFile2({ onClick }: { onClick: () => void }) {
         <div style={{ width: 32, height: 2, backgroundColor: C.tan, margin: "16px 0" }} />
 
                         <div className="flex flex-wrap gap-6">
-          {["VOL. 02", "SEPTEMBER 2026", "FIRST EDITION"].map(tag => (
+          {["SEPTEMBER 2026"].map(tag => (
             <span
               key={tag}
               style={{
